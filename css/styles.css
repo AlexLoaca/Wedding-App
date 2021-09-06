@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Playfair Display SC", serif;
+}
+
+:root {
+   --nav-color: black;
+   --confirm-btn: #1e90ff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   color: #00325f;
+}
+
+.logo-wrapper {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   margin: 25px 0px;
+}
+
+.logo-text {
+   width: 100%;
+   text-align: center;
+}
+
+.logo-img {
+   width: 300px;
+}
+
+.table-wrapper {
+   border: solid 1px #dee2e6;
+   padding: 1.5rem;
+   border-top-left-radius: 0.25rem;
+   border-top-right-radius: 0.25rem;
+}
+
+.btn-add-user {
+  border-radius: 10px;
+  color: white;
+}
+
+.fas-clickable {
+  cursor: pointer;
+}
+
+.fa-user-slash.fas-clickable {
+  color: #dc143c;
+}
+
+.fa-user-edit.fas-clickable {
+  color: #0dcaf0;
+}
